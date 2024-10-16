@@ -37,7 +37,7 @@
                         </ul>
                     </div>
                     <div class="card-footer bg-transparent border-top-0">
-                        <a href="http://localhost/JobOffer/index.php?ctrl=User&action=showOffer" class="btn btn-primary w-100">En savoir plus</a>
+                        <a href="index.php?ctrl=User&action=showOffer" class="btn btn-primary w-100">En savoir plus</a>
                     </div>
                 </div>
             </div>
