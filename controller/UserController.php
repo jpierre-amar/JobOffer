@@ -32,4 +32,8 @@ class UserController
     public function redirectRegister() {
         include 'views/auth/register.php';
     }
+
+    public function gotoProfile() {
+        include 'views/users/profil.php';
+    }
 }

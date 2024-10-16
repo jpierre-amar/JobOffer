@@ -10,17 +10,13 @@
 
 <div id="content1">
     <div class="container-fluid flex-grow-1 d-flex align-items-center justify-content-center">
-        <div class="card shadow-lg" style="max-width: 900px;">
+        <div class="card shadow-lg" style="min-width: 600px;">
             <div class="row g-0">
-                <div class="col-md-5">
-                    <img src="../inc/img/imgconnect.png" alt="Image de connexion" class="img-fluid h-100 object-fit-cover rounded-start">
-                </div>
-                <div class="col-md-7">
                     <div class="card-body p-5">
                         <h2 class="text-center">Espace Candidat</h2>
                         <h3 class="card-title text-center mb-4">Inscription</h3>
 
-                                                // Inscription Candidat
+                                               <!-- INSCRIPTION CANDIDAT -->
 
                         <form method="POST" action="index.php?ctrl=User&action=register">
                             <div class="mb-3">
@@ -63,7 +59,6 @@
                         </form>
 
                     </div>
-                </div>
             </div>
         </div>
     </div>
@@ -72,17 +67,12 @@
 
 <div id="content2" style="display: none;">
     <div class="container-fluid flex-grow-1 d-flex align-items-center justify-content-center">
-        <div class="card shadow-lg" style="max-width: 900px;">
-            <div class="row g-0">
-                <div class="col-md-5">
-                    <img src="../inc/img/imgconnect.png" alt="Image de connexion" class="img-fluid h-100 object-fit-cover rounded-start">
-                </div>
-                <div class="col-md-7">
+        <div class="card shadow-lg" style="min-width: 600px;">
                     <div class="card-body p-5">
                         <h2 class="text-center">Espace Entreprise</h2>
                         <h3 class="card-title text-center mb-4">Inscription</h3>
 
-                                                    // Inscription Entreprise
+                                                <!-- INSCRIPTION ENTREPRISE -->
 
                         <form method="POST" action="../../index.php?ctrl=User&action=register">
                             <div class="mb-3">

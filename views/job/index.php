@@ -1,5 +1,5 @@
 <div class="text-center my-5">
-    <h1 class="h1 display-1 my-5 text-center border border-5 border-primary d-inline-block py-2 px-5">Nos offres d'emploi</h1>
+    <h1 class="h1 display-1 text-center d-inline-block">Nos offres d'emploi</h1>
 </div>
 <div class="container mt-4">
     <div class="row justify-content-center">
@@ -25,11 +25,11 @@
         <?php if (isset($jobs) && is_array($jobs)) : ?>
         <?php foreach ($jobs as $job) : ?>
             <div class="col">
-                <div class="card h-100 shadow-sm">
+                <div class="card h-100 shadow-sm border-0">
                     <div class="card-body">
                         <h5 class="card-title"><?= $job->getTitle(); ?></h5>
                         <h6 class="card-subtitle mb-2 text-muted"><?= $job->getCompany(); ?></h6>
-                        <p class="card-text"><?= $job->getDescription(); ?></p>
+                        <!-- <p class="card-text"><?= $job->getDescription(); ?></p> -->
                         <ul class="list-unstyled">
                             <li><i class="bi bi-geo-alt-fill me-2"></i><?= $job->getCity(); ?></li>
                             <li><i class="bi bi-clock-fill me-2"></i><?= $job->getType(); ?></li>
@@ -37,7 +37,7 @@
                         </ul>
                     </div>
                     <div class="card-footer bg-transparent border-top-0">
-                        <a href="http://localhost/JobOffer/index.php?ctrl=User&action=showOffer" class="btn btn-primary w-100">En savoir plus</a>
+                        <a href="index.php?ctrl=User&action=showOffer" class="btn btn-primary w-100">En savoir plus</a>
                     </div>
                 </div>
             </div>

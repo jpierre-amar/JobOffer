@@ -1,16 +1,9 @@
 <?php $current_page = "login"; ?>
 <div class="d-flex flex-column">
     <div class="container-fluid flex-grow-1 d-flex align-items-center justify-content-center bg-light">
-        <div class="card shadow-lg" style="max-width: 900px;">
+        <div class="card shadow-lg my-5">
             <div class="row g-0">
-                <div class="col-md-5">
-                    <div class="">
-                        <img src="views/inc/img/imgconnect.png" alt="Image de connexion" class="img-fluid h-50 object-fit-cover rounded-start">
-                    </div>
-
-                </div>
-                <div class="col-md-7">
-                    <div class="card-body mt-5 p-5">
+                    <div class="card-body my-5 mx-5">
                         <h2 class="card-title text-center mb-4">Connexion</h2>
                         <form method="POST" action="/JobOffer/index.php?ctrl=User&action=validateUser">
                             <div class="mb-3">
@@ -26,7 +19,6 @@
                             </div>
                         </form>
                     </div>
-                </div>
             </div>
         </div>
     </div>
